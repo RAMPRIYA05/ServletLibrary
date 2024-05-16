@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+  fieldset{
+            background-color:burlywood;
+            width:450px;
+            height: 500px;
+            padding:10px; 
+            margin:20px;
+            margin-left:30%;
+            border-radius: 20px;
+          }
+          
+</style>
+</head>
+<body>
+     
+<fieldset>
+     <form action="Library">
+     <center><h1 style="color:black;background-color:burlywood;">Library Registration Form</h1></center> 
+     <label>Name:</label>   
+	 <input type="text" name="name" placeholder="Enter your name" required><br>
+	 <label>Email Id:</label>
+	 <input type="text" name="emailId" placeholder="Enter your EmaiId" required><br>
+	 <label>Password:</label>
+	 <input type="password" name="password" placeholder="Enter your password" required><br>
+	 <label>Phone Number:</label>
+	 <input type="number" name="phoneNumber" placeholder="Enter your Phone number" required><br>
+	 <label>Address:</label>
+	 <input type="text" placeholder="Enter your Address" name="address" required><br>
+     <label>City:</label>
+     <input type="text" placeholder="Enter your City" name="city" required><br>
+     <label>Pin Code:</label>
+     <input type="number" placeholder="Enter your PinCode" name="pinCode" required><br>
+     <label>District:</label>
+     <input type="text" placeholder="Enter your District" name="district" required><br>
+     <label>State:</label>
+     <input type="text" placeholder="Enter your State" name="state" required><br>
+     <label for="gender">Gender:</label><br>
+     <label for="gender"><input type="radio" id="gender" name="gender" value="Female" required>1.Female</label><br>
+     <label for="gender"><input type="radio" id="gender" name="gender" value="Male" required>2.Male</label><br>
+     <label for="gender"><input type="radio" id="gender" name="gender" value="Other" required>3.Other</label><br>
+     <center><input style="background-color:green;" type="submit" name="click"></center>
+	 </form>
+</fieldset>
+</body>
+</html>
